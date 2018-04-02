@@ -4,6 +4,7 @@
   "description": "Simple TODO app built with React",
   "main": "index.js",
   "scripts": {
+    "start": "webpack-dev-server --config ./webpack.config.js --mode development",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/kaylynyuh/todo-react-app/issues"
   },
-  "homepage": "https://github.com/kaylynyuh/todo-react-app#readme"
+  "homepage": "https://github.com/kaylynyuh/todo-react-app#readme",
+  "devDependencies": {
+    "webpack": "^4.4.1",
+    "webpack-cli": "^2.0.13",
+    "webpack-dev-server": "^3.1.1"
+  }
 }
